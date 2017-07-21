@@ -1,0 +1,22 @@
+echo "kkkkk"
+IozoneRun=11
+iozone_enable=1
+CoreNum=4
+StreamRun=13
+stream_enable=1
+StressMem=1000
+StressTime=12
+stream_enable=1
+LtpTime=1000
+ltp_enable=1
+IPaddr=192.168.1.1
+netperf_enable=1
+x11perf_enable=1
+Unixbench_Core=4
+unixbench_enable=1
+Unixbench_Core=3
+unixbench_enable=1
+spec2000_enable=1
+spec2006_enable=1
+IozoneRun=22
+iozone_enable=1

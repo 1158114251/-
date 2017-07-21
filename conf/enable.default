@@ -1,0 +1,9 @@
+iozone_enable=0
+stream_enable=0
+stress_enable=0
+ltp_enable=0
+netperf_enable=0
+x11perf_enable=0
+unixbench_enable=0
+spec2000_enable=0
+spec2006_enable=0

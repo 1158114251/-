@@ -1,0 +1,2394 @@
+*******************************************************************************************************************
+iozone	测试结果
+
+Writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	143906	144946	147251	148301	147096	148054	147989	147016	148354	147570	148176	147163	147395
+
+Re-writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	150336	152188	153241	151127	152077	153161	152281	152559	152277	152527	151816	153147	153725
+
+Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	226419	233941	269368	269063	267941	269466	268471	268490	268336	268949	269144	269086	268915
+
+Re-Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	227189	233926	267911	269197	269558	269681	269835	269743	269098	267136	269423	268358	269550
+*******************************************************************************************************************
+ 
+stream  测试结果
+
+Copy	Rate=4101.23
+Scale	Rate=3024.75
+Add	Rate=4329.86
+Triad	Rate=3640.20
+*******************************************************************************************************************
+ 
+Stress 测试结果
+
+Stress PASS
+*******************************************************************************************************************
+
+spec2000	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+168.wupwise	4	193	38.4	*
+171.swim	4	395	36.4	*
+172.mgrid	4	188	44.4	*
+173.applu	4	311	31.3	*
+177.mesa	4	163	39.8	*
+178.galgel	4	201	66.9	*
+179.art	4	211	57.2	*
+183.equake	4	173	34.9	*
+187.facerec	4	693	12.7	*
+188.ammp	4	358	28.5	*
+189.lucas	4	260	35.6	*
+191.fma3d	4	993	9.82*
+200.sixtrack	4	295	17.3	*
+301.apsi	4	278	43.3	*
+Est.	SPECfp_rate_base2000	31.6
+Est.	SPECfp_rate2000	--
+
+spec2000	定点测试结果
+
+164.gzip	4	387	16.8*
+175.vpr	4	330	19.7*
+176.gcc	4	155	32.8*
+181.mcf	4	581	14.4*
+186.crafty	4	132	35.1*
+197.parser	4	415	20.1*
+252.eon	4	202	29.8*
+253.perlbmk	4	312	26.8*
+254.gap	4	194	26.3*
+255.vortex	4	335	26.3*
+256.bzip2	4	390	17.8*
+300.twolf	4	618	22.5*
+Est.	SPECint_rate_base2000	23.2
+Est.	SPECint_rate2000	--
+
+
+HARDWARE
+--------
+Hardware	Vendor:
+Model	Name:	Loongson-3A-780E-1w-V1.03-demo
+CPU:	ICT	Loongson-3A	V0.5	FPU	V0.1
+CPU	MHz:	900Mhz
+FPU:	Integrated
+CPU(s)	enabled:	1
+CPU(s)	orderable:	1
+Parallel:	No
+Primary	Cache:	64KBI	+	64KBD	on	chip
+Secondary	Cache:	1024KB(I+D)	on	chip
+L3	Cache:	N/A
+Other	Cache:	N/A
+Memory:	2x2G	Kingston	KVR1333D3N9/2G-SP
+Disk	Subsystem:	SATA,	WD5000AAKX
+Other	Hardware:	None
+
+
+SOFTWARE
+--------
+Operating	System:	Fedora13
+Compiler:	--
+File	System:	Linux/ext3
+System	State:	Multi-user	Run	level	5
+
+
+NOTES
+*******************************************************************************************************************
+
+spec2006	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+410.bwaves	4	3804	14.3	*
+416.gamess	4	3654	21.4	*
+433.milc	4	1691	21.7	*
+434.zeusmp	4	3339	10.9	*
+435.gromacs	4	2011	14.2	*
+436.cactusADM	4	14665	3.26	*
+437.leslie3d	4	1787	21.0	*
+444.namd	4	1350	23.8	*
+447.dealII	4	1393	32.8	*
+450.soplex	4	1652	20.2	*
+453.povray	4	1111	19.2	*
+454.calculix	4	3236	10.2	*
+459.GemsFDTD	4	3141	13.5	*
+465.tonto	4	5536	7.11	*
+470.lbm	4	2255	24.4	*
+481.wrf	4	3759	11.9	*
+482.sphinx3	4	3359	23.2	*
+Est.	SPECfp_rate_base2006	0.00
+Est.	SPECfp_rate2006	Not	Run
+
+spec2006	定点测试结果
+
+400.perlbench	4	2056	19.0	*
+401.bzip2	4	3102	12.4	*
+403.gcc	4	1475	21.8	*
+429.mcf	4	1480	24.7	*
+445.gobmk	4	1862	22.5	*
+456.hmmer	4	1767	21.1	*
+458.sjeng	4	2257	21.4	*
+462.libquantum	4	1962	42.2	*
+464.h264ref	4	6180	14.3	*
+471.omnetpp	4	1830	13.7	*
+473.astar	4	1772	15.8	*
+483.xalancbmk	4	1571	17.6	*
+Est.	SPECint_rate_base2006	0.00
+Est.	SPECint_rate2006	Not	Run
+*******************************************************************************************************************
+
+ UnixBench 测试结果  
+
+Benchmark Run: 五 10月 21 2016 10:45:01 - 11:12:55
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables       11015709.7 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     1551.2 MWIPS (10.0 s, 7 samples)
+Execl Throughput                               4089.8 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        153550.8 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           40162.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        504208.0 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1047410.9 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 336122.3 lps   (10.0 s, 7 samples)
+Process Creation                              11893.3 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   3220.3 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    429.0 lpm   (60.2 s, 2 samples)
+System Call Overhead                         842179.9 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   11015709.7    943.9
+Double-Precision Whetstone                       55.0       1551.2    282.0
+Execl Throughput                                 43.0       4089.8    951.1
+File Copy 1024 bufsize 2000 maxblocks          3960.0     153550.8    387.8
+File Copy 256 bufsize 500 maxblocks            1655.0      40162.0    242.7
+File Copy 4096 bufsize 8000 maxblocks          5800.0     504208.0    869.3
+Pipe Throughput                               12440.0    1047410.9    842.0
+Pipe-based Context Switching                   4000.0     336122.3    840.3
+Process Creation                                126.0      11893.3    943.9
+Shell Scripts (1 concurrent)                     42.4       3220.3    759.5
+Shell Scripts (8 concurrent)                      6.0        429.0    715.0
+System Call Overhead                          15000.0     842179.9    561.5
+                                                                   ========
+System Benchmarks Index Score                                         634.0
+
+*******************************************************************************************************************
+
+ x11perf 测试结果  
+ 
+
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+35000000 trep @   0.0008 msec (1280000.0/sec): Dot
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:03 2016
+
+Sync time adjustment is 0.1472 msecs.
+
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1250000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+35000000 trep @   0.0008 msec (1250000.0/sec): 100-pixel line
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:37 2016
+
+Sync time adjustment is 0.1497 msecs.
+
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0837 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+ 350000 trep @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:21:13 2016
+
+Sync time adjustment is 0.1499 msecs.
+
+ 180000 reps @   0.0211 msec ( 47400.0/sec): 100x100 rectangle
+ 180000 reps @   0.0222 msec ( 45000.0/sec): 100x100 rectangle
+ 180000 reps @   0.0197 msec ( 50800.0/sec): 100x100 rectangle
+ 180000 reps @   0.0193 msec ( 51900.0/sec): 100x100 rectangle
+ 180000 reps @   0.0211 msec ( 47500.0/sec): 100x100 rectangle
+ 900000 trep @   0.0207 msec ( 48400.0/sec): 100x100 rectangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:22:34 2016
+
+Sync time adjustment is 0.1470 msecs.
+
+  20000 reps @   0.2672 msec (  3740.0/sec): PutImage 100x100 square
+  20000 reps @   0.2864 msec (  3490.0/sec): PutImage 100x100 square
+  20000 reps @   0.2754 msec (  3630.0/sec): PutImage 100x100 square
+  20000 reps @   0.2760 msec (  3620.0/sec): PutImage 100x100 square
+  20000 reps @   0.2530 msec (  3950.0/sec): PutImage 100x100 square
+ 100000 trep @   0.2716 msec (  3680.0/sec): PutImage 100x100 square
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:23:08 2016
+
+Sync time adjustment is 0.1524 msecs.
+
+  60000 reps @   0.0955 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0954 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0959 msec ( 10400.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+ 300000 trep @   0.0956 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+
+*******************************************************************************************************************
+ 
+LTP 测试结果
+
+LTP FAIL
+
+*******************************************************************************************************************
+iozone	测试结果
+
+Writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	143906	144946	147251	148301	147096	148054	147989	147016	148354	147570	148176	147163	147395
+
+Re-writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	150336	152188	153241	151127	152077	153161	152281	152559	152277	152527	151816	153147	153725
+
+Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	226419	233941	269368	269063	267941	269466	268471	268490	268336	268949	269144	269086	268915
+
+Re-Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	227189	233926	267911	269197	269558	269681	269835	269743	269098	267136	269423	268358	269550
+*******************************************************************************************************************
+ 
+stream  测试结果
+
+Copy	Rate=4101.23
+Scale	Rate=3024.75
+Add	Rate=4329.86
+Triad	Rate=3640.20
+*******************************************************************************************************************
+ 
+Stress 测试结果
+
+Stress PASS
+*******************************************************************************************************************
+
+spec2000	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+168.wupwise	4	193	38.4	*
+171.swim	4	395	36.4	*
+172.mgrid	4	188	44.4	*
+173.applu	4	311	31.3	*
+177.mesa	4	163	39.8	*
+178.galgel	4	201	66.9	*
+179.art	4	211	57.2	*
+183.equake	4	173	34.9	*
+187.facerec	4	693	12.7	*
+188.ammp	4	358	28.5	*
+189.lucas	4	260	35.6	*
+191.fma3d	4	993	9.82*
+200.sixtrack	4	295	17.3	*
+301.apsi	4	278	43.3	*
+Est.	SPECfp_rate_base2000	31.6
+Est.	SPECfp_rate2000	--
+
+spec2000	定点测试结果
+
+164.gzip	4	387	16.8*
+175.vpr	4	330	19.7*
+176.gcc	4	155	32.8*
+181.mcf	4	581	14.4*
+186.crafty	4	132	35.1*
+197.parser	4	415	20.1*
+252.eon	4	202	29.8*
+253.perlbmk	4	312	26.8*
+254.gap	4	194	26.3*
+255.vortex	4	335	26.3*
+256.bzip2	4	390	17.8*
+300.twolf	4	618	22.5*
+Est.	SPECint_rate_base2000	23.2
+Est.	SPECint_rate2000	--
+
+
+HARDWARE
+--------
+Hardware	Vendor:
+Model	Name:	Loongson-3A-780E-1w-V1.03-demo
+CPU:	ICT	Loongson-3A	V0.5	FPU	V0.1
+CPU	MHz:	900Mhz
+FPU:	Integrated
+CPU(s)	enabled:	1
+CPU(s)	orderable:	1
+Parallel:	No
+Primary	Cache:	64KBI	+	64KBD	on	chip
+Secondary	Cache:	1024KB(I+D)	on	chip
+L3	Cache:	N/A
+Other	Cache:	N/A
+Memory:	2x2G	Kingston	KVR1333D3N9/2G-SP
+Disk	Subsystem:	SATA,	WD5000AAKX
+Other	Hardware:	None
+
+
+SOFTWARE
+--------
+Operating	System:	Fedora13
+Compiler:	--
+File	System:	Linux/ext3
+System	State:	Multi-user	Run	level	5
+
+
+NOTES
+*******************************************************************************************************************
+
+spec2006	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+410.bwaves	4	3804	14.3	*
+416.gamess	4	3654	21.4	*
+433.milc	4	1691	21.7	*
+434.zeusmp	4	3339	10.9	*
+435.gromacs	4	2011	14.2	*
+436.cactusADM	4	14665	3.26	*
+437.leslie3d	4	1787	21.0	*
+444.namd	4	1350	23.8	*
+447.dealII	4	1393	32.8	*
+450.soplex	4	1652	20.2	*
+453.povray	4	1111	19.2	*
+454.calculix	4	3236	10.2	*
+459.GemsFDTD	4	3141	13.5	*
+465.tonto	4	5536	7.11	*
+470.lbm	4	2255	24.4	*
+481.wrf	4	3759	11.9	*
+482.sphinx3	4	3359	23.2	*
+Est.	SPECfp_rate_base2006	0.00
+Est.	SPECfp_rate2006	Not	Run
+
+spec2006	定点测试结果
+
+400.perlbench	4	2056	19.0	*
+401.bzip2	4	3102	12.4	*
+403.gcc	4	1475	21.8	*
+429.mcf	4	1480	24.7	*
+445.gobmk	4	1862	22.5	*
+456.hmmer	4	1767	21.1	*
+458.sjeng	4	2257	21.4	*
+462.libquantum	4	1962	42.2	*
+464.h264ref	4	6180	14.3	*
+471.omnetpp	4	1830	13.7	*
+473.astar	4	1772	15.8	*
+483.xalancbmk	4	1571	17.6	*
+Est.	SPECint_rate_base2006	0.00
+Est.	SPECint_rate2006	Not	Run
+*******************************************************************************************************************
+
+ UnixBench 测试结果  
+
+Benchmark Run: 五 10月 21 2016 10:45:01 - 11:12:55
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables       11015709.7 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     1551.2 MWIPS (10.0 s, 7 samples)
+Execl Throughput                               4089.8 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        153550.8 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           40162.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        504208.0 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1047410.9 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 336122.3 lps   (10.0 s, 7 samples)
+Process Creation                              11893.3 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   3220.3 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    429.0 lpm   (60.2 s, 2 samples)
+System Call Overhead                         842179.9 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   11015709.7    943.9
+Double-Precision Whetstone                       55.0       1551.2    282.0
+Execl Throughput                                 43.0       4089.8    951.1
+File Copy 1024 bufsize 2000 maxblocks          3960.0     153550.8    387.8
+File Copy 256 bufsize 500 maxblocks            1655.0      40162.0    242.7
+File Copy 4096 bufsize 8000 maxblocks          5800.0     504208.0    869.3
+Pipe Throughput                               12440.0    1047410.9    842.0
+Pipe-based Context Switching                   4000.0     336122.3    840.3
+Process Creation                                126.0      11893.3    943.9
+Shell Scripts (1 concurrent)                     42.4       3220.3    759.5
+Shell Scripts (8 concurrent)                      6.0        429.0    715.0
+System Call Overhead                          15000.0     842179.9    561.5
+                                                                   ========
+System Benchmarks Index Score                                         634.0
+
+*******************************************************************************************************************
+
+ x11perf 测试结果  
+ 
+
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+35000000 trep @   0.0008 msec (1280000.0/sec): Dot
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:03 2016
+
+Sync time adjustment is 0.1472 msecs.
+
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1250000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+35000000 trep @   0.0008 msec (1250000.0/sec): 100-pixel line
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:37 2016
+
+Sync time adjustment is 0.1497 msecs.
+
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0837 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+ 350000 trep @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:21:13 2016
+
+Sync time adjustment is 0.1499 msecs.
+
+ 180000 reps @   0.0211 msec ( 47400.0/sec): 100x100 rectangle
+ 180000 reps @   0.0222 msec ( 45000.0/sec): 100x100 rectangle
+ 180000 reps @   0.0197 msec ( 50800.0/sec): 100x100 rectangle
+ 180000 reps @   0.0193 msec ( 51900.0/sec): 100x100 rectangle
+ 180000 reps @   0.0211 msec ( 47500.0/sec): 100x100 rectangle
+ 900000 trep @   0.0207 msec ( 48400.0/sec): 100x100 rectangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:22:34 2016
+
+Sync time adjustment is 0.1470 msecs.
+
+  20000 reps @   0.2672 msec (  3740.0/sec): PutImage 100x100 square
+  20000 reps @   0.2864 msec (  3490.0/sec): PutImage 100x100 square
+  20000 reps @   0.2754 msec (  3630.0/sec): PutImage 100x100 square
+  20000 reps @   0.2760 msec (  3620.0/sec): PutImage 100x100 square
+  20000 reps @   0.2530 msec (  3950.0/sec): PutImage 100x100 square
+ 100000 trep @   0.2716 msec (  3680.0/sec): PutImage 100x100 square
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:23:08 2016
+
+Sync time adjustment is 0.1524 msecs.
+
+  60000 reps @   0.0955 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0954 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0959 msec ( 10400.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+ 300000 trep @   0.0956 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+
+*******************************************************************************************************************
+ 
+LTP 测试结果
+
+LTP FAIL
+
+*******************************************************************************************************************
+iozone	测试结果
+
+Writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	143906	144946	147251	148301	147096	148054	147989	147016	148354	147570	148176	147163	147395
+
+Re-writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	150336	152188	153241	151127	152077	153161	152281	152559	152277	152527	151816	153147	153725
+
+Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	226419	233941	269368	269063	267941	269466	268471	268490	268336	268949	269144	269086	268915
+
+Re-Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	227189	233926	267911	269197	269558	269681	269835	269743	269098	267136	269423	268358	269550
+*******************************************************************************************************************
+ 
+stream  测试结果
+
+Copy	Rate=4101.23
+Scale	Rate=3024.75
+Add	Rate=4329.86
+Triad	Rate=3640.20
+*******************************************************************************************************************
+ 
+Stress 测试结果
+
+Stress PASS
+*******************************************************************************************************************
+
+spec2000	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+168.wupwise	4	193	38.4	*
+171.swim	4	395	36.4	*
+172.mgrid	4	188	44.4	*
+173.applu	4	311	31.3	*
+177.mesa	4	163	39.8	*
+178.galgel	4	201	66.9	*
+179.art	4	211	57.2	*
+183.equake	4	173	34.9	*
+187.facerec	4	693	12.7	*
+188.ammp	4	358	28.5	*
+189.lucas	4	260	35.6	*
+191.fma3d	4	993	9.82*
+200.sixtrack	4	295	17.3	*
+301.apsi	4	278	43.3	*
+Est.	SPECfp_rate_base2000	31.6
+Est.	SPECfp_rate2000	--
+
+spec2000	定点测试结果
+
+164.gzip	4	387	16.8*
+175.vpr	4	330	19.7*
+176.gcc	4	155	32.8*
+181.mcf	4	581	14.4*
+186.crafty	4	132	35.1*
+197.parser	4	415	20.1*
+252.eon	4	202	29.8*
+253.perlbmk	4	312	26.8*
+254.gap	4	194	26.3*
+255.vortex	4	335	26.3*
+256.bzip2	4	390	17.8*
+300.twolf	4	618	22.5*
+Est.	SPECint_rate_base2000	23.2
+Est.	SPECint_rate2000	--
+
+
+HARDWARE
+--------
+Hardware	Vendor:
+Model	Name:	Loongson-3A-780E-1w-V1.03-demo
+CPU:	ICT	Loongson-3A	V0.5	FPU	V0.1
+CPU	MHz:	900Mhz
+FPU:	Integrated
+CPU(s)	enabled:	1
+CPU(s)	orderable:	1
+Parallel:	No
+Primary	Cache:	64KBI	+	64KBD	on	chip
+Secondary	Cache:	1024KB(I+D)	on	chip
+L3	Cache:	N/A
+Other	Cache:	N/A
+Memory:	2x2G	Kingston	KVR1333D3N9/2G-SP
+Disk	Subsystem:	SATA,	WD5000AAKX
+Other	Hardware:	None
+
+
+SOFTWARE
+--------
+Operating	System:	Fedora13
+Compiler:	--
+File	System:	Linux/ext3
+System	State:	Multi-user	Run	level	5
+
+
+NOTES
+*******************************************************************************************************************
+
+spec2006	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+410.bwaves	4	3804	14.3	*
+416.gamess	4	3654	21.4	*
+433.milc	4	1691	21.7	*
+434.zeusmp	4	3339	10.9	*
+435.gromacs	4	2011	14.2	*
+436.cactusADM	4	14665	3.26	*
+437.leslie3d	4	1787	21.0	*
+444.namd	4	1350	23.8	*
+447.dealII	4	1393	32.8	*
+450.soplex	4	1652	20.2	*
+453.povray	4	1111	19.2	*
+454.calculix	4	3236	10.2	*
+459.GemsFDTD	4	3141	13.5	*
+465.tonto	4	5536	7.11	*
+470.lbm	4	2255	24.4	*
+481.wrf	4	3759	11.9	*
+482.sphinx3	4	3359	23.2	*
+Est.	SPECfp_rate_base2006	0.00
+Est.	SPECfp_rate2006	Not	Run
+
+spec2006	定点测试结果
+
+400.perlbench	4	2056	19.0	*
+401.bzip2	4	3102	12.4	*
+403.gcc	4	1475	21.8	*
+429.mcf	4	1480	24.7	*
+445.gobmk	4	1862	22.5	*
+456.hmmer	4	1767	21.1	*
+458.sjeng	4	2257	21.4	*
+462.libquantum	4	1962	42.2	*
+464.h264ref	4	6180	14.3	*
+471.omnetpp	4	1830	13.7	*
+473.astar	4	1772	15.8	*
+483.xalancbmk	4	1571	17.6	*
+Est.	SPECint_rate_base2006	0.00
+Est.	SPECint_rate2006	Not	Run
+*******************************************************************************************************************
+
+ UnixBench 测试结果  
+
+Benchmark Run: 五 10月 21 2016 10:45:01 - 11:12:55
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables       11015709.7 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     1551.2 MWIPS (10.0 s, 7 samples)
+Execl Throughput                               4089.8 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        153550.8 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           40162.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        504208.0 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1047410.9 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 336122.3 lps   (10.0 s, 7 samples)
+Process Creation                              11893.3 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   3220.3 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    429.0 lpm   (60.2 s, 2 samples)
+System Call Overhead                         842179.9 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   11015709.7    943.9
+Double-Precision Whetstone                       55.0       1551.2    282.0
+Execl Throughput                                 43.0       4089.8    951.1
+File Copy 1024 bufsize 2000 maxblocks          3960.0     153550.8    387.8
+File Copy 256 bufsize 500 maxblocks            1655.0      40162.0    242.7
+File Copy 4096 bufsize 8000 maxblocks          5800.0     504208.0    869.3
+Pipe Throughput                               12440.0    1047410.9    842.0
+Pipe-based Context Switching                   4000.0     336122.3    840.3
+Process Creation                                126.0      11893.3    943.9
+Shell Scripts (1 concurrent)                     42.4       3220.3    759.5
+Shell Scripts (8 concurrent)                      6.0        429.0    715.0
+System Call Overhead                          15000.0     842179.9    561.5
+                                                                   ========
+System Benchmarks Index Score                                         634.0
+
+*******************************************************************************************************************
+
+ x11perf 测试结果  
+ 
+
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+35000000 trep @   0.0008 msec (1280000.0/sec): Dot
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:03 2016
+
+Sync time adjustment is 0.1472 msecs.
+
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1250000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+35000000 trep @   0.0008 msec (1250000.0/sec): 100-pixel line
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:37 2016
+
+Sync time adjustment is 0.1497 msecs.
+
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0837 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+ 350000 trep @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:21:13 2016
+
+Sync time adjustment is 0.1499 msecs.
+
+ 180000 reps @   0.0211 msec ( 47400.0/sec): 100x100 rectangle
+ 180000 reps @   0.0222 msec ( 45000.0/sec): 100x100 rectangle
+ 180000 reps @   0.0197 msec ( 50800.0/sec): 100x100 rectangle
+ 180000 reps @   0.0193 msec ( 51900.0/sec): 100x100 rectangle
+ 180000 reps @   0.0211 msec ( 47500.0/sec): 100x100 rectangle
+ 900000 trep @   0.0207 msec ( 48400.0/sec): 100x100 rectangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:22:34 2016
+
+Sync time adjustment is 0.1470 msecs.
+
+  20000 reps @   0.2672 msec (  3740.0/sec): PutImage 100x100 square
+  20000 reps @   0.2864 msec (  3490.0/sec): PutImage 100x100 square
+  20000 reps @   0.2754 msec (  3630.0/sec): PutImage 100x100 square
+  20000 reps @   0.2760 msec (  3620.0/sec): PutImage 100x100 square
+  20000 reps @   0.2530 msec (  3950.0/sec): PutImage 100x100 square
+ 100000 trep @   0.2716 msec (  3680.0/sec): PutImage 100x100 square
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:23:08 2016
+
+Sync time adjustment is 0.1524 msecs.
+
+  60000 reps @   0.0955 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0954 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0959 msec ( 10400.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+ 300000 trep @   0.0956 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+
+*******************************************************************************************************************
+ 
+LTP 测试结果
+
+LTP FAIL
+
+*******************************************************************************************************************
+iozone	测试结果
+
+Writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	143906	144946	147251	148301	147096	148054	147989	147016	148354	147570	148176	147163	147395
+
+Re-writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	150336	152188	153241	151127	152077	153161	152281	152559	152277	152527	151816	153147	153725
+
+Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	226419	233941	269368	269063	267941	269466	268471	268490	268336	268949	269144	269086	268915
+
+Re-Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	227189	233926	267911	269197	269558	269681	269835	269743	269098	267136	269423	268358	269550
+*******************************************************************************************************************
+ 
+stream  测试结果
+
+Copy	Rate=4101.23
+Scale	Rate=3024.75
+Add	Rate=4329.86
+Triad	Rate=3640.20
+*******************************************************************************************************************
+ 
+Stress 测试结果
+
+Stress PASS
+*******************************************************************************************************************
+
+spec2000	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+168.wupwise	4	193	38.4	*
+171.swim	4	395	36.4	*
+172.mgrid	4	188	44.4	*
+173.applu	4	311	31.3	*
+177.mesa	4	163	39.8	*
+178.galgel	4	201	66.9	*
+179.art	4	211	57.2	*
+183.equake	4	173	34.9	*
+187.facerec	4	693	12.7	*
+188.ammp	4	358	28.5	*
+189.lucas	4	260	35.6	*
+191.fma3d	4	993	9.82*
+200.sixtrack	4	295	17.3	*
+301.apsi	4	278	43.3	*
+Est.	SPECfp_rate_base2000	31.6
+Est.	SPECfp_rate2000	--
+
+spec2000	定点测试结果
+
+164.gzip	4	387	16.8*
+175.vpr	4	330	19.7*
+176.gcc	4	155	32.8*
+181.mcf	4	581	14.4*
+186.crafty	4	132	35.1*
+197.parser	4	415	20.1*
+252.eon	4	202	29.8*
+253.perlbmk	4	312	26.8*
+254.gap	4	194	26.3*
+255.vortex	4	335	26.3*
+256.bzip2	4	390	17.8*
+300.twolf	4	618	22.5*
+Est.	SPECint_rate_base2000	23.2
+Est.	SPECint_rate2000	--
+
+
+HARDWARE
+--------
+Hardware	Vendor:
+Model	Name:	Loongson-3A-780E-1w-V1.03-demo
+CPU:	ICT	Loongson-3A	V0.5	FPU	V0.1
+CPU	MHz:	900Mhz
+FPU:	Integrated
+CPU(s)	enabled:	1
+CPU(s)	orderable:	1
+Parallel:	No
+Primary	Cache:	64KBI	+	64KBD	on	chip
+Secondary	Cache:	1024KB(I+D)	on	chip
+L3	Cache:	N/A
+Other	Cache:	N/A
+Memory:	2x2G	Kingston	KVR1333D3N9/2G-SP
+Disk	Subsystem:	SATA,	WD5000AAKX
+Other	Hardware:	None
+
+
+SOFTWARE
+--------
+Operating	System:	Fedora13
+Compiler:	--
+File	System:	Linux/ext3
+System	State:	Multi-user	Run	level	5
+
+
+NOTES
+*******************************************************************************************************************
+
+spec2006	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+410.bwaves	4	3804	14.3	*
+416.gamess	4	3654	21.4	*
+433.milc	4	1691	21.7	*
+434.zeusmp	4	3339	10.9	*
+435.gromacs	4	2011	14.2	*
+436.cactusADM	4	14665	3.26	*
+437.leslie3d	4	1787	21.0	*
+444.namd	4	1350	23.8	*
+447.dealII	4	1393	32.8	*
+450.soplex	4	1652	20.2	*
+453.povray	4	1111	19.2	*
+454.calculix	4	3236	10.2	*
+459.GemsFDTD	4	3141	13.5	*
+465.tonto	4	5536	7.11	*
+470.lbm	4	2255	24.4	*
+481.wrf	4	3759	11.9	*
+482.sphinx3	4	3359	23.2	*
+Est.	SPECfp_rate_base2006	0.00
+Est.	SPECfp_rate2006	Not	Run
+
+spec2006	定点测试结果
+
+400.perlbench	4	2056	19.0	*
+401.bzip2	4	3102	12.4	*
+403.gcc	4	1475	21.8	*
+429.mcf	4	1480	24.7	*
+445.gobmk	4	1862	22.5	*
+456.hmmer	4	1767	21.1	*
+458.sjeng	4	2257	21.4	*
+462.libquantum	4	1962	42.2	*
+464.h264ref	4	6180	14.3	*
+471.omnetpp	4	1830	13.7	*
+473.astar	4	1772	15.8	*
+483.xalancbmk	4	1571	17.6	*
+Est.	SPECint_rate_base2006	0.00
+Est.	SPECint_rate2006	Not	Run
+*******************************************************************************************************************
+
+ UnixBench 测试结果  
+
+Benchmark Run: 五 10月 21 2016 10:45:01 - 11:12:55
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables       11015709.7 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     1551.2 MWIPS (10.0 s, 7 samples)
+Execl Throughput                               4089.8 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        153550.8 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           40162.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        504208.0 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1047410.9 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 336122.3 lps   (10.0 s, 7 samples)
+Process Creation                              11893.3 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   3220.3 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    429.0 lpm   (60.2 s, 2 samples)
+System Call Overhead                         842179.9 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   11015709.7    943.9
+Double-Precision Whetstone                       55.0       1551.2    282.0
+Execl Throughput                                 43.0       4089.8    951.1
+File Copy 1024 bufsize 2000 maxblocks          3960.0     153550.8    387.8
+File Copy 256 bufsize 500 maxblocks            1655.0      40162.0    242.7
+File Copy 4096 bufsize 8000 maxblocks          5800.0     504208.0    869.3
+Pipe Throughput                               12440.0    1047410.9    842.0
+Pipe-based Context Switching                   4000.0     336122.3    840.3
+Process Creation                                126.0      11893.3    943.9
+Shell Scripts (1 concurrent)                     42.4       3220.3    759.5
+Shell Scripts (8 concurrent)                      6.0        429.0    715.0
+System Call Overhead                          15000.0     842179.9    561.5
+                                                                   ========
+System Benchmarks Index Score                                         634.0
+
+*******************************************************************************************************************
+
+ x11perf 测试结果  
+ 
+
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+35000000 trep @   0.0008 msec (1280000.0/sec): Dot
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:03 2016
+
+Sync time adjustment is 0.1472 msecs.
+
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1250000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+35000000 trep @   0.0008 msec (1250000.0/sec): 100-pixel line
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:37 2016
+
+Sync time adjustment is 0.1497 msecs.
+
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0837 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+ 350000 trep @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:21:13 2016
+
+Sync time adjustment is 0.1499 msecs.
+
+ 180000 reps @   0.0211 msec ( 47400.0/sec): 100x100 rectangle
+ 180000 reps @   0.0222 msec ( 45000.0/sec): 100x100 rectangle
+ 180000 reps @   0.0197 msec ( 50800.0/sec): 100x100 rectangle
+ 180000 reps @   0.0193 msec ( 51900.0/sec): 100x100 rectangle
+ 180000 reps @   0.0211 msec ( 47500.0/sec): 100x100 rectangle
+ 900000 trep @   0.0207 msec ( 48400.0/sec): 100x100 rectangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:22:34 2016
+
+Sync time adjustment is 0.1470 msecs.
+
+  20000 reps @   0.2672 msec (  3740.0/sec): PutImage 100x100 square
+  20000 reps @   0.2864 msec (  3490.0/sec): PutImage 100x100 square
+  20000 reps @   0.2754 msec (  3630.0/sec): PutImage 100x100 square
+  20000 reps @   0.2760 msec (  3620.0/sec): PutImage 100x100 square
+  20000 reps @   0.2530 msec (  3950.0/sec): PutImage 100x100 square
+ 100000 trep @   0.2716 msec (  3680.0/sec): PutImage 100x100 square
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:23:08 2016
+
+Sync time adjustment is 0.1524 msecs.
+
+  60000 reps @   0.0955 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0954 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0959 msec ( 10400.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+ 300000 trep @   0.0956 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+
+*******************************************************************************************************************
+ 
+LTP 测试结果
+
+LTP FAIL
+
+*******************************************************************************************************************
+iozone	测试结果
+
+Writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	143906	144946	147251	148301	147096	148054	147989	147016	148354	147570	148176	147163	147395
+
+Re-writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	150336	152188	153241	151127	152077	153161	152281	152559	152277	152527	151816	153147	153725
+
+Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	226419	233941	269368	269063	267941	269466	268471	268490	268336	268949	269144	269086	268915
+
+Re-Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	227189	233926	267911	269197	269558	269681	269835	269743	269098	267136	269423	268358	269550
+*******************************************************************************************************************
+ 
+stream  测试结果
+
+Copy	Rate=4101.23
+Scale	Rate=3024.75
+Add	Rate=4329.86
+Triad	Rate=3640.20
+*******************************************************************************************************************
+ 
+Stress 测试结果
+
+Stress PASS
+*******************************************************************************************************************
+
+spec2000	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+168.wupwise	4	193	38.4	*
+171.swim	4	395	36.4	*
+172.mgrid	4	188	44.4	*
+173.applu	4	311	31.3	*
+177.mesa	4	163	39.8	*
+178.galgel	4	201	66.9	*
+179.art	4	211	57.2	*
+183.equake	4	173	34.9	*
+187.facerec	4	693	12.7	*
+188.ammp	4	358	28.5	*
+189.lucas	4	260	35.6	*
+191.fma3d	4	993	9.82*
+200.sixtrack	4	295	17.3	*
+301.apsi	4	278	43.3	*
+Est.	SPECfp_rate_base2000	31.6
+Est.	SPECfp_rate2000	--
+
+spec2000	定点测试结果
+
+164.gzip	4	387	16.8*
+175.vpr	4	330	19.7*
+176.gcc	4	155	32.8*
+181.mcf	4	581	14.4*
+186.crafty	4	132	35.1*
+197.parser	4	415	20.1*
+252.eon	4	202	29.8*
+253.perlbmk	4	312	26.8*
+254.gap	4	194	26.3*
+255.vortex	4	335	26.3*
+256.bzip2	4	390	17.8*
+300.twolf	4	618	22.5*
+Est.	SPECint_rate_base2000	23.2
+Est.	SPECint_rate2000	--
+
+
+HARDWARE
+--------
+Hardware	Vendor:
+Model	Name:	Loongson-3A-780E-1w-V1.03-demo
+CPU:	ICT	Loongson-3A	V0.5	FPU	V0.1
+CPU	MHz:	900Mhz
+FPU:	Integrated
+CPU(s)	enabled:	1
+CPU(s)	orderable:	1
+Parallel:	No
+Primary	Cache:	64KBI	+	64KBD	on	chip
+Secondary	Cache:	1024KB(I+D)	on	chip
+L3	Cache:	N/A
+Other	Cache:	N/A
+Memory:	2x2G	Kingston	KVR1333D3N9/2G-SP
+Disk	Subsystem:	SATA,	WD5000AAKX
+Other	Hardware:	None
+
+
+SOFTWARE
+--------
+Operating	System:	Fedora13
+Compiler:	--
+File	System:	Linux/ext3
+System	State:	Multi-user	Run	level	5
+
+
+NOTES
+*******************************************************************************************************************
+
+spec2006	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+410.bwaves	4	3804	14.3	*
+416.gamess	4	3654	21.4	*
+433.milc	4	1691	21.7	*
+434.zeusmp	4	3339	10.9	*
+435.gromacs	4	2011	14.2	*
+436.cactusADM	4	14665	3.26	*
+437.leslie3d	4	1787	21.0	*
+444.namd	4	1350	23.8	*
+447.dealII	4	1393	32.8	*
+450.soplex	4	1652	20.2	*
+453.povray	4	1111	19.2	*
+454.calculix	4	3236	10.2	*
+459.GemsFDTD	4	3141	13.5	*
+465.tonto	4	5536	7.11	*
+470.lbm	4	2255	24.4	*
+481.wrf	4	3759	11.9	*
+482.sphinx3	4	3359	23.2	*
+Est.	SPECfp_rate_base2006	0.00
+Est.	SPECfp_rate2006	Not	Run
+
+spec2006	定点测试结果
+
+400.perlbench	4	2056	19.0	*
+401.bzip2	4	3102	12.4	*
+403.gcc	4	1475	21.8	*
+429.mcf	4	1480	24.7	*
+445.gobmk	4	1862	22.5	*
+456.hmmer	4	1767	21.1	*
+458.sjeng	4	2257	21.4	*
+462.libquantum	4	1962	42.2	*
+464.h264ref	4	6180	14.3	*
+471.omnetpp	4	1830	13.7	*
+473.astar	4	1772	15.8	*
+483.xalancbmk	4	1571	17.6	*
+Est.	SPECint_rate_base2006	0.00
+Est.	SPECint_rate2006	Not	Run
+*******************************************************************************************************************
+
+ UnixBench 测试结果  
+
+Benchmark Run: 五 10月 21 2016 10:45:01 - 11:12:55
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables       11015709.7 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     1551.2 MWIPS (10.0 s, 7 samples)
+Execl Throughput                               4089.8 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        153550.8 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           40162.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        504208.0 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1047410.9 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 336122.3 lps   (10.0 s, 7 samples)
+Process Creation                              11893.3 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   3220.3 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    429.0 lpm   (60.2 s, 2 samples)
+System Call Overhead                         842179.9 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   11015709.7    943.9
+Double-Precision Whetstone                       55.0       1551.2    282.0
+Execl Throughput                                 43.0       4089.8    951.1
+File Copy 1024 bufsize 2000 maxblocks          3960.0     153550.8    387.8
+File Copy 256 bufsize 500 maxblocks            1655.0      40162.0    242.7
+File Copy 4096 bufsize 8000 maxblocks          5800.0     504208.0    869.3
+Pipe Throughput                               12440.0    1047410.9    842.0
+Pipe-based Context Switching                   4000.0     336122.3    840.3
+Process Creation                                126.0      11893.3    943.9
+Shell Scripts (1 concurrent)                     42.4       3220.3    759.5
+Shell Scripts (8 concurrent)                      6.0        429.0    715.0
+System Call Overhead                          15000.0     842179.9    561.5
+                                                                   ========
+System Benchmarks Index Score                                         634.0
+
+*******************************************************************************************************************
+
+ x11perf 测试结果  
+ 
+
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+35000000 trep @   0.0008 msec (1280000.0/sec): Dot
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:03 2016
+
+Sync time adjustment is 0.1472 msecs.
+
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1250000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+35000000 trep @   0.0008 msec (1250000.0/sec): 100-pixel line
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:37 2016
+
+Sync time adjustment is 0.1497 msecs.
+
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0837 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+ 350000 trep @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:21:13 2016
+
+Sync time adjustment is 0.1499 msecs.
+
+ 180000 reps @   0.0211 msec ( 47400.0/sec): 100x100 rectangle
+ 180000 reps @   0.0222 msec ( 45000.0/sec): 100x100 rectangle
+ 180000 reps @   0.0197 msec ( 50800.0/sec): 100x100 rectangle
+ 180000 reps @   0.0193 msec ( 51900.0/sec): 100x100 rectangle
+ 180000 reps @   0.0211 msec ( 47500.0/sec): 100x100 rectangle
+ 900000 trep @   0.0207 msec ( 48400.0/sec): 100x100 rectangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:22:34 2016
+
+Sync time adjustment is 0.1470 msecs.
+
+  20000 reps @   0.2672 msec (  3740.0/sec): PutImage 100x100 square
+  20000 reps @   0.2864 msec (  3490.0/sec): PutImage 100x100 square
+  20000 reps @   0.2754 msec (  3630.0/sec): PutImage 100x100 square
+  20000 reps @   0.2760 msec (  3620.0/sec): PutImage 100x100 square
+  20000 reps @   0.2530 msec (  3950.0/sec): PutImage 100x100 square
+ 100000 trep @   0.2716 msec (  3680.0/sec): PutImage 100x100 square
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:23:08 2016
+
+Sync time adjustment is 0.1524 msecs.
+
+  60000 reps @   0.0955 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0954 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0959 msec ( 10400.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+ 300000 trep @   0.0956 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+
+*******************************************************************************************************************
+ 
+LTP 测试结果
+
+LTP FAIL
+
+*******************************************************************************************************************
+iozone	测试结果
+
+Writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	143906	144946	147251	148301	147096	148054	147989	147016	148354	147570	148176	147163	147395
+
+Re-writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	150336	152188	153241	151127	152077	153161	152281	152559	152277	152527	151816	153147	153725
+
+Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	226419	233941	269368	269063	267941	269466	268471	268490	268336	268949	269144	269086	268915
+
+Re-Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	227189	233926	267911	269197	269558	269681	269835	269743	269098	267136	269423	268358	269550
+*******************************************************************************************************************
+ 
+stream  测试结果
+
+Copy	Rate=4101.23
+Scale	Rate=3024.75
+Add	Rate=4329.86
+Triad	Rate=3640.20
+*******************************************************************************************************************
+ 
+Stress 测试结果
+
+Stress PASS
+*******************************************************************************************************************
+
+spec2000	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+168.wupwise	4	193	38.4	*
+171.swim	4	395	36.4	*
+172.mgrid	4	188	44.4	*
+173.applu	4	311	31.3	*
+177.mesa	4	163	39.8	*
+178.galgel	4	201	66.9	*
+179.art	4	211	57.2	*
+183.equake	4	173	34.9	*
+187.facerec	4	693	12.7	*
+188.ammp	4	358	28.5	*
+189.lucas	4	260	35.6	*
+191.fma3d	4	993	9.82*
+200.sixtrack	4	295	17.3	*
+301.apsi	4	278	43.3	*
+Est.	SPECfp_rate_base2000	31.6
+Est.	SPECfp_rate2000	--
+
+spec2000	定点测试结果
+
+164.gzip	4	387	16.8*
+175.vpr	4	330	19.7*
+176.gcc	4	155	32.8*
+181.mcf	4	581	14.4*
+186.crafty	4	132	35.1*
+197.parser	4	415	20.1*
+252.eon	4	202	29.8*
+253.perlbmk	4	312	26.8*
+254.gap	4	194	26.3*
+255.vortex	4	335	26.3*
+256.bzip2	4	390	17.8*
+300.twolf	4	618	22.5*
+Est.	SPECint_rate_base2000	23.2
+Est.	SPECint_rate2000	--
+
+
+HARDWARE
+--------
+Hardware	Vendor:
+Model	Name:	Loongson-3A-780E-1w-V1.03-demo
+CPU:	ICT	Loongson-3A	V0.5	FPU	V0.1
+CPU	MHz:	900Mhz
+FPU:	Integrated
+CPU(s)	enabled:	1
+CPU(s)	orderable:	1
+Parallel:	No
+Primary	Cache:	64KBI	+	64KBD	on	chip
+Secondary	Cache:	1024KB(I+D)	on	chip
+L3	Cache:	N/A
+Other	Cache:	N/A
+Memory:	2x2G	Kingston	KVR1333D3N9/2G-SP
+Disk	Subsystem:	SATA,	WD5000AAKX
+Other	Hardware:	None
+
+
+SOFTWARE
+--------
+Operating	System:	Fedora13
+Compiler:	--
+File	System:	Linux/ext3
+System	State:	Multi-user	Run	level	5
+
+
+NOTES
+*******************************************************************************************************************
+
+spec2006	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+410.bwaves	4	3804	14.3	*
+416.gamess	4	3654	21.4	*
+433.milc	4	1691	21.7	*
+434.zeusmp	4	3339	10.9	*
+435.gromacs	4	2011	14.2	*
+436.cactusADM	4	14665	3.26	*
+437.leslie3d	4	1787	21.0	*
+444.namd	4	1350	23.8	*
+447.dealII	4	1393	32.8	*
+450.soplex	4	1652	20.2	*
+453.povray	4	1111	19.2	*
+454.calculix	4	3236	10.2	*
+459.GemsFDTD	4	3141	13.5	*
+465.tonto	4	5536	7.11	*
+470.lbm	4	2255	24.4	*
+481.wrf	4	3759	11.9	*
+482.sphinx3	4	3359	23.2	*
+Est.	SPECfp_rate_base2006	0.00
+Est.	SPECfp_rate2006	Not	Run
+
+spec2006	定点测试结果
+
+400.perlbench	4	2056	19.0	*
+401.bzip2	4	3102	12.4	*
+403.gcc	4	1475	21.8	*
+429.mcf	4	1480	24.7	*
+445.gobmk	4	1862	22.5	*
+456.hmmer	4	1767	21.1	*
+458.sjeng	4	2257	21.4	*
+462.libquantum	4	1962	42.2	*
+464.h264ref	4	6180	14.3	*
+471.omnetpp	4	1830	13.7	*
+473.astar	4	1772	15.8	*
+483.xalancbmk	4	1571	17.6	*
+Est.	SPECint_rate_base2006	0.00
+Est.	SPECint_rate2006	Not	Run
+*******************************************************************************************************************
+
+ UnixBench 测试结果  
+
+Benchmark Run: 五 10月 21 2016 10:45:01 - 11:12:55
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables       11015709.7 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     1551.2 MWIPS (10.0 s, 7 samples)
+Execl Throughput                               4089.8 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        153550.8 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           40162.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        504208.0 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1047410.9 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 336122.3 lps   (10.0 s, 7 samples)
+Process Creation                              11893.3 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   3220.3 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    429.0 lpm   (60.2 s, 2 samples)
+System Call Overhead                         842179.9 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   11015709.7    943.9
+Double-Precision Whetstone                       55.0       1551.2    282.0
+Execl Throughput                                 43.0       4089.8    951.1
+File Copy 1024 bufsize 2000 maxblocks          3960.0     153550.8    387.8
+File Copy 256 bufsize 500 maxblocks            1655.0      40162.0    242.7
+File Copy 4096 bufsize 8000 maxblocks          5800.0     504208.0    869.3
+Pipe Throughput                               12440.0    1047410.9    842.0
+Pipe-based Context Switching                   4000.0     336122.3    840.3
+Process Creation                                126.0      11893.3    943.9
+Shell Scripts (1 concurrent)                     42.4       3220.3    759.5
+Shell Scripts (8 concurrent)                      6.0        429.0    715.0
+System Call Overhead                          15000.0     842179.9    561.5
+                                                                   ========
+System Benchmarks Index Score                                         634.0
+
+*******************************************************************************************************************
+
+ x11perf 测试结果  
+ 
+
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+35000000 trep @   0.0008 msec (1280000.0/sec): Dot
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:03 2016
+
+Sync time adjustment is 0.1472 msecs.
+
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1250000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+35000000 trep @   0.0008 msec (1250000.0/sec): 100-pixel line
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:37 2016
+
+Sync time adjustment is 0.1497 msecs.
+
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0837 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+ 350000 trep @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:21:13 2016
+
+Sync time adjustment is 0.1499 msecs.
+
+ 180000 reps @   0.0211 msec ( 47400.0/sec): 100x100 rectangle
+ 180000 reps @   0.0222 msec ( 45000.0/sec): 100x100 rectangle
+ 180000 reps @   0.0197 msec ( 50800.0/sec): 100x100 rectangle
+ 180000 reps @   0.0193 msec ( 51900.0/sec): 100x100 rectangle
+ 180000 reps @   0.0211 msec ( 47500.0/sec): 100x100 rectangle
+ 900000 trep @   0.0207 msec ( 48400.0/sec): 100x100 rectangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:22:34 2016
+
+Sync time adjustment is 0.1470 msecs.
+
+  20000 reps @   0.2672 msec (  3740.0/sec): PutImage 100x100 square
+  20000 reps @   0.2864 msec (  3490.0/sec): PutImage 100x100 square
+  20000 reps @   0.2754 msec (  3630.0/sec): PutImage 100x100 square
+  20000 reps @   0.2760 msec (  3620.0/sec): PutImage 100x100 square
+  20000 reps @   0.2530 msec (  3950.0/sec): PutImage 100x100 square
+ 100000 trep @   0.2716 msec (  3680.0/sec): PutImage 100x100 square
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:23:08 2016
+
+Sync time adjustment is 0.1524 msecs.
+
+  60000 reps @   0.0955 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0954 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0959 msec ( 10400.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+ 300000 trep @   0.0956 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+
+*******************************************************************************************************************
+ 
+LTP 测试结果
+
+LTP FAIL
+
+*******************************************************************************************************************
+iozone	测试结果
+
+Writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	143906	144946	147251	148301	147096	148054	147989	147016	148354	147570	148176	147163	147395
+
+Re-writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	150336	152188	153241	151127	152077	153161	152281	152559	152277	152527	151816	153147	153725
+
+Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	226419	233941	269368	269063	267941	269466	268471	268490	268336	268949	269144	269086	268915
+
+Re-Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	227189	233926	267911	269197	269558	269681	269835	269743	269098	267136	269423	268358	269550
+*******************************************************************************************************************
+ 
+stream  测试结果
+
+Copy	Rate=4101.23
+Scale	Rate=3024.75
+Add	Rate=4329.86
+Triad	Rate=3640.20
+*******************************************************************************************************************
+ 
+Stress 测试结果
+
+Stress PASS
+*******************************************************************************************************************
+
+spec2000	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+168.wupwise	4	193	38.4	*
+171.swim	4	395	36.4	*
+172.mgrid	4	188	44.4	*
+173.applu	4	311	31.3	*
+177.mesa	4	163	39.8	*
+178.galgel	4	201	66.9	*
+179.art	4	211	57.2	*
+183.equake	4	173	34.9	*
+187.facerec	4	693	12.7	*
+188.ammp	4	358	28.5	*
+189.lucas	4	260	35.6	*
+191.fma3d	4	993	9.82*
+200.sixtrack	4	295	17.3	*
+301.apsi	4	278	43.3	*
+Est.	SPECfp_rate_base2000	31.6
+Est.	SPECfp_rate2000	--
+
+spec2000	定点测试结果
+
+164.gzip	4	387	16.8*
+175.vpr	4	330	19.7*
+176.gcc	4	155	32.8*
+181.mcf	4	581	14.4*
+186.crafty	4	132	35.1*
+197.parser	4	415	20.1*
+252.eon	4	202	29.8*
+253.perlbmk	4	312	26.8*
+254.gap	4	194	26.3*
+255.vortex	4	335	26.3*
+256.bzip2	4	390	17.8*
+300.twolf	4	618	22.5*
+Est.	SPECint_rate_base2000	23.2
+Est.	SPECint_rate2000	--
+
+
+HARDWARE
+--------
+Hardware	Vendor:
+Model	Name:	Loongson-3A-780E-1w-V1.03-demo
+CPU:	ICT	Loongson-3A	V0.5	FPU	V0.1
+CPU	MHz:	900Mhz
+FPU:	Integrated
+CPU(s)	enabled:	1
+CPU(s)	orderable:	1
+Parallel:	No
+Primary	Cache:	64KBI	+	64KBD	on	chip
+Secondary	Cache:	1024KB(I+D)	on	chip
+L3	Cache:	N/A
+Other	Cache:	N/A
+Memory:	2x2G	Kingston	KVR1333D3N9/2G-SP
+Disk	Subsystem:	SATA,	WD5000AAKX
+Other	Hardware:	None
+
+
+SOFTWARE
+--------
+Operating	System:	Fedora13
+Compiler:	--
+File	System:	Linux/ext3
+System	State:	Multi-user	Run	level	5
+
+
+NOTES
+*******************************************************************************************************************
+
+spec2006	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+410.bwaves	4	3804	14.3	*
+416.gamess	4	3654	21.4	*
+433.milc	4	1691	21.7	*
+434.zeusmp	4	3339	10.9	*
+435.gromacs	4	2011	14.2	*
+436.cactusADM	4	14665	3.26	*
+437.leslie3d	4	1787	21.0	*
+444.namd	4	1350	23.8	*
+447.dealII	4	1393	32.8	*
+450.soplex	4	1652	20.2	*
+453.povray	4	1111	19.2	*
+454.calculix	4	3236	10.2	*
+459.GemsFDTD	4	3141	13.5	*
+465.tonto	4	5536	7.11	*
+470.lbm	4	2255	24.4	*
+481.wrf	4	3759	11.9	*
+482.sphinx3	4	3359	23.2	*
+Est.	SPECfp_rate_base2006	0.00
+Est.	SPECfp_rate2006	Not	Run
+
+spec2006	定点测试结果
+
+400.perlbench	4	2056	19.0	*
+401.bzip2	4	3102	12.4	*
+403.gcc	4	1475	21.8	*
+429.mcf	4	1480	24.7	*
+445.gobmk	4	1862	22.5	*
+456.hmmer	4	1767	21.1	*
+458.sjeng	4	2257	21.4	*
+462.libquantum	4	1962	42.2	*
+464.h264ref	4	6180	14.3	*
+471.omnetpp	4	1830	13.7	*
+473.astar	4	1772	15.8	*
+483.xalancbmk	4	1571	17.6	*
+Est.	SPECint_rate_base2006	0.00
+Est.	SPECint_rate2006	Not	Run
+*******************************************************************************************************************
+
+ UnixBench 测试结果  
+
+Benchmark Run: 五 10月 21 2016 10:45:01 - 11:12:55
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables       11015709.7 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     1551.2 MWIPS (10.0 s, 7 samples)
+Execl Throughput                               4089.8 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        153550.8 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           40162.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        504208.0 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1047410.9 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 336122.3 lps   (10.0 s, 7 samples)
+Process Creation                              11893.3 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   3220.3 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    429.0 lpm   (60.2 s, 2 samples)
+System Call Overhead                         842179.9 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   11015709.7    943.9
+Double-Precision Whetstone                       55.0       1551.2    282.0
+Execl Throughput                                 43.0       4089.8    951.1
+File Copy 1024 bufsize 2000 maxblocks          3960.0     153550.8    387.8
+File Copy 256 bufsize 500 maxblocks            1655.0      40162.0    242.7
+File Copy 4096 bufsize 8000 maxblocks          5800.0     504208.0    869.3
+Pipe Throughput                               12440.0    1047410.9    842.0
+Pipe-based Context Switching                   4000.0     336122.3    840.3
+Process Creation                                126.0      11893.3    943.9
+Shell Scripts (1 concurrent)                     42.4       3220.3    759.5
+Shell Scripts (8 concurrent)                      6.0        429.0    715.0
+System Call Overhead                          15000.0     842179.9    561.5
+                                                                   ========
+System Benchmarks Index Score                                         634.0
+
+*******************************************************************************************************************
+
+ x11perf 测试结果  
+ 
+
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+35000000 trep @   0.0008 msec (1280000.0/sec): Dot
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:03 2016
+
+Sync time adjustment is 0.1472 msecs.
+
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1250000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+35000000 trep @   0.0008 msec (1250000.0/sec): 100-pixel line
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:37 2016
+
+Sync time adjustment is 0.1497 msecs.
+
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0837 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+ 350000 trep @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:21:13 2016
+
+Sync time adjustment is 0.1499 msecs.
+
+ 180000 reps @   0.0211 msec ( 47400.0/sec): 100x100 rectangle
+ 180000 reps @   0.0222 msec ( 45000.0/sec): 100x100 rectangle
+ 180000 reps @   0.0197 msec ( 50800.0/sec): 100x100 rectangle
+ 180000 reps @   0.0193 msec ( 51900.0/sec): 100x100 rectangle
+ 180000 reps @   0.0211 msec ( 47500.0/sec): 100x100 rectangle
+ 900000 trep @   0.0207 msec ( 48400.0/sec): 100x100 rectangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:22:34 2016
+
+Sync time adjustment is 0.1470 msecs.
+
+  20000 reps @   0.2672 msec (  3740.0/sec): PutImage 100x100 square
+  20000 reps @   0.2864 msec (  3490.0/sec): PutImage 100x100 square
+  20000 reps @   0.2754 msec (  3630.0/sec): PutImage 100x100 square
+  20000 reps @   0.2760 msec (  3620.0/sec): PutImage 100x100 square
+  20000 reps @   0.2530 msec (  3950.0/sec): PutImage 100x100 square
+ 100000 trep @   0.2716 msec (  3680.0/sec): PutImage 100x100 square
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:23:08 2016
+
+Sync time adjustment is 0.1524 msecs.
+
+  60000 reps @   0.0955 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0954 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0959 msec ( 10400.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+ 300000 trep @   0.0956 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+
+*******************************************************************************************************************
+ 
+LTP 测试结果
+
+LTP FAIL
+
+*******************************************************************************************************************
+iozone	测试结果
+
+Writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	143906	144946	147251	148301	147096	148054	147989	147016	148354	147570	148176	147163	147395
+
+Re-writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	150336	152188	153241	151127	152077	153161	152281	152559	152277	152527	151816	153147	153725
+
+Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	226419	233941	269368	269063	267941	269466	268471	268490	268336	268949	269144	269086	268915
+
+Re-Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	227189	233926	267911	269197	269558	269681	269835	269743	269098	267136	269423	268358	269550
+*******************************************************************************************************************
+ 
+stream  测试结果
+
+Copy	Rate=4101.23
+Scale	Rate=3024.75
+Add	Rate=4329.86
+Triad	Rate=3640.20
+*******************************************************************************************************************
+ 
+Stress 测试结果
+
+Stress PASS
+*******************************************************************************************************************
+
+spec2000	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+168.wupwise	4	193	38.4	*
+171.swim	4	395	36.4	*
+172.mgrid	4	188	44.4	*
+173.applu	4	311	31.3	*
+177.mesa	4	163	39.8	*
+178.galgel	4	201	66.9	*
+179.art	4	211	57.2	*
+183.equake	4	173	34.9	*
+187.facerec	4	693	12.7	*
+188.ammp	4	358	28.5	*
+189.lucas	4	260	35.6	*
+191.fma3d	4	993	9.82*
+200.sixtrack	4	295	17.3	*
+301.apsi	4	278	43.3	*
+Est.	SPECfp_rate_base2000	31.6
+Est.	SPECfp_rate2000	--
+
+spec2000	定点测试结果
+
+164.gzip	4	387	16.8*
+175.vpr	4	330	19.7*
+176.gcc	4	155	32.8*
+181.mcf	4	581	14.4*
+186.crafty	4	132	35.1*
+197.parser	4	415	20.1*
+252.eon	4	202	29.8*
+253.perlbmk	4	312	26.8*
+254.gap	4	194	26.3*
+255.vortex	4	335	26.3*
+256.bzip2	4	390	17.8*
+300.twolf	4	618	22.5*
+Est.	SPECint_rate_base2000	23.2
+Est.	SPECint_rate2000	--
+
+
+HARDWARE
+--------
+Hardware	Vendor:
+Model	Name:	Loongson-3A-780E-1w-V1.03-demo
+CPU:	ICT	Loongson-3A	V0.5	FPU	V0.1
+CPU	MHz:	900Mhz
+FPU:	Integrated
+CPU(s)	enabled:	1
+CPU(s)	orderable:	1
+Parallel:	No
+Primary	Cache:	64KBI	+	64KBD	on	chip
+Secondary	Cache:	1024KB(I+D)	on	chip
+L3	Cache:	N/A
+Other	Cache:	N/A
+Memory:	2x2G	Kingston	KVR1333D3N9/2G-SP
+Disk	Subsystem:	SATA,	WD5000AAKX
+Other	Hardware:	None
+
+
+SOFTWARE
+--------
+Operating	System:	Fedora13
+Compiler:	--
+File	System:	Linux/ext3
+System	State:	Multi-user	Run	level	5
+
+
+NOTES
+*******************************************************************************************************************
+
+spec2006	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+410.bwaves	4	3804	14.3	*
+416.gamess	4	3654	21.4	*
+433.milc	4	1691	21.7	*
+434.zeusmp	4	3339	10.9	*
+435.gromacs	4	2011	14.2	*
+436.cactusADM	4	14665	3.26	*
+437.leslie3d	4	1787	21.0	*
+444.namd	4	1350	23.8	*
+447.dealII	4	1393	32.8	*
+450.soplex	4	1652	20.2	*
+453.povray	4	1111	19.2	*
+454.calculix	4	3236	10.2	*
+459.GemsFDTD	4	3141	13.5	*
+465.tonto	4	5536	7.11	*
+470.lbm	4	2255	24.4	*
+481.wrf	4	3759	11.9	*
+482.sphinx3	4	3359	23.2	*
+Est.	SPECfp_rate_base2006	0.00
+Est.	SPECfp_rate2006	Not	Run
+
+spec2006	定点测试结果
+
+400.perlbench	4	2056	19.0	*
+401.bzip2	4	3102	12.4	*
+403.gcc	4	1475	21.8	*
+429.mcf	4	1480	24.7	*
+445.gobmk	4	1862	22.5	*
+456.hmmer	4	1767	21.1	*
+458.sjeng	4	2257	21.4	*
+462.libquantum	4	1962	42.2	*
+464.h264ref	4	6180	14.3	*
+471.omnetpp	4	1830	13.7	*
+473.astar	4	1772	15.8	*
+483.xalancbmk	4	1571	17.6	*
+Est.	SPECint_rate_base2006	0.00
+Est.	SPECint_rate2006	Not	Run
+*******************************************************************************************************************
+
+ UnixBench 测试结果  
+
+Benchmark Run: 五 10月 21 2016 10:45:01 - 11:12:55
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables       11015709.7 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     1551.2 MWIPS (10.0 s, 7 samples)
+Execl Throughput                               4089.8 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        153550.8 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           40162.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        504208.0 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1047410.9 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 336122.3 lps   (10.0 s, 7 samples)
+Process Creation                              11893.3 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   3220.3 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    429.0 lpm   (60.2 s, 2 samples)
+System Call Overhead                         842179.9 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   11015709.7    943.9
+Double-Precision Whetstone                       55.0       1551.2    282.0
+Execl Throughput                                 43.0       4089.8    951.1
+File Copy 1024 bufsize 2000 maxblocks          3960.0     153550.8    387.8
+File Copy 256 bufsize 500 maxblocks            1655.0      40162.0    242.7
+File Copy 4096 bufsize 8000 maxblocks          5800.0     504208.0    869.3
+Pipe Throughput                               12440.0    1047410.9    842.0
+Pipe-based Context Switching                   4000.0     336122.3    840.3
+Process Creation                                126.0      11893.3    943.9
+Shell Scripts (1 concurrent)                     42.4       3220.3    759.5
+Shell Scripts (8 concurrent)                      6.0        429.0    715.0
+System Call Overhead                          15000.0     842179.9    561.5
+                                                                   ========
+System Benchmarks Index Score                                         634.0
+
+*******************************************************************************************************************
+
+ x11perf 测试结果  
+ 
+
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+35000000 trep @   0.0008 msec (1280000.0/sec): Dot
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:03 2016
+
+Sync time adjustment is 0.1472 msecs.
+
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1250000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+35000000 trep @   0.0008 msec (1250000.0/sec): 100-pixel line
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:37 2016
+
+Sync time adjustment is 0.1497 msecs.
+
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0837 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+ 350000 trep @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:21:13 2016
+
+Sync time adjustment is 0.1499 msecs.
+
+ 180000 reps @   0.0211 msec ( 47400.0/sec): 100x100 rectangle
+ 180000 reps @   0.0222 msec ( 45000.0/sec): 100x100 rectangle
+ 180000 reps @   0.0197 msec ( 50800.0/sec): 100x100 rectangle
+ 180000 reps @   0.0193 msec ( 51900.0/sec): 100x100 rectangle
+ 180000 reps @   0.0211 msec ( 47500.0/sec): 100x100 rectangle
+ 900000 trep @   0.0207 msec ( 48400.0/sec): 100x100 rectangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:22:34 2016
+
+Sync time adjustment is 0.1470 msecs.
+
+  20000 reps @   0.2672 msec (  3740.0/sec): PutImage 100x100 square
+  20000 reps @   0.2864 msec (  3490.0/sec): PutImage 100x100 square
+  20000 reps @   0.2754 msec (  3630.0/sec): PutImage 100x100 square
+  20000 reps @   0.2760 msec (  3620.0/sec): PutImage 100x100 square
+  20000 reps @   0.2530 msec (  3950.0/sec): PutImage 100x100 square
+ 100000 trep @   0.2716 msec (  3680.0/sec): PutImage 100x100 square
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:23:08 2016
+
+Sync time adjustment is 0.1524 msecs.
+
+  60000 reps @   0.0955 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0954 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0959 msec ( 10400.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+ 300000 trep @   0.0956 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+
+*******************************************************************************************************************
+ 
+LTP 测试结果
+
+LTP FAIL
+
+*******************************************************************************************************************
+iozone	测试结果
+
+Writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	143906	144946	147251	148301	147096	148054	147989	147016	148354	147570	148176	147163	147395
+
+Re-writer	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	150336	152188	153241	151127	152077	153161	152281	152559	152277	152527	151816	153147	153725
+
+Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	226419	233941	269368	269063	267941	269466	268471	268490	268336	268949	269144	269086	268915
+
+Re-Reader	report
+4	8	16	32	64	128	256	512	1024	2048	4096	8192	16384
+16375808	227189	233926	267911	269197	269558	269681	269835	269743	269098	267136	269423	268358	269550
+*******************************************************************************************************************
+ 
+stream  测试结果
+
+Copy	Rate=4101.23
+Scale	Rate=3024.75
+Add	Rate=4329.86
+Triad	Rate=3640.20
+*******************************************************************************************************************
+ 
+Stress 测试结果
+
+Stress PASS
+*******************************************************************************************************************
+
+spec2000	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+168.wupwise	4	193	38.4	*
+171.swim	4	395	36.4	*
+172.mgrid	4	188	44.4	*
+173.applu	4	311	31.3	*
+177.mesa	4	163	39.8	*
+178.galgel	4	201	66.9	*
+179.art	4	211	57.2	*
+183.equake	4	173	34.9	*
+187.facerec	4	693	12.7	*
+188.ammp	4	358	28.5	*
+189.lucas	4	260	35.6	*
+191.fma3d	4	993	9.82*
+200.sixtrack	4	295	17.3	*
+301.apsi	4	278	43.3	*
+Est.	SPECfp_rate_base2000	31.6
+Est.	SPECfp_rate2000	--
+
+spec2000	定点测试结果
+
+164.gzip	4	387	16.8*
+175.vpr	4	330	19.7*
+176.gcc	4	155	32.8*
+181.mcf	4	581	14.4*
+186.crafty	4	132	35.1*
+197.parser	4	415	20.1*
+252.eon	4	202	29.8*
+253.perlbmk	4	312	26.8*
+254.gap	4	194	26.3*
+255.vortex	4	335	26.3*
+256.bzip2	4	390	17.8*
+300.twolf	4	618	22.5*
+Est.	SPECint_rate_base2000	23.2
+Est.	SPECint_rate2000	--
+
+
+HARDWARE
+--------
+Hardware	Vendor:
+Model	Name:	Loongson-3A-780E-1w-V1.03-demo
+CPU:	ICT	Loongson-3A	V0.5	FPU	V0.1
+CPU	MHz:	900Mhz
+FPU:	Integrated
+CPU(s)	enabled:	1
+CPU(s)	orderable:	1
+Parallel:	No
+Primary	Cache:	64KBI	+	64KBD	on	chip
+Secondary	Cache:	1024KB(I+D)	on	chip
+L3	Cache:	N/A
+Other	Cache:	N/A
+Memory:	2x2G	Kingston	KVR1333D3N9/2G-SP
+Disk	Subsystem:	SATA,	WD5000AAKX
+Other	Hardware:	None
+
+
+SOFTWARE
+--------
+Operating	System:	Fedora13
+Compiler:	--
+File	System:	Linux/ext3
+System	State:	Multi-user	Run	level	5
+
+
+NOTES
+*******************************************************************************************************************
+
+spec2006	浮点测试结果
+
+Benchmark	BaseCopies	BaseRuntime	BaseRatio
+
+410.bwaves	4	3804	14.3	*
+416.gamess	4	3654	21.4	*
+433.milc	4	1691	21.7	*
+434.zeusmp	4	3339	10.9	*
+435.gromacs	4	2011	14.2	*
+436.cactusADM	4	14665	3.26	*
+437.leslie3d	4	1787	21.0	*
+444.namd	4	1350	23.8	*
+447.dealII	4	1393	32.8	*
+450.soplex	4	1652	20.2	*
+453.povray	4	1111	19.2	*
+454.calculix	4	3236	10.2	*
+459.GemsFDTD	4	3141	13.5	*
+465.tonto	4	5536	7.11	*
+470.lbm	4	2255	24.4	*
+481.wrf	4	3759	11.9	*
+482.sphinx3	4	3359	23.2	*
+Est.	SPECfp_rate_base2006	0.00
+Est.	SPECfp_rate2006	Not	Run
+
+spec2006	定点测试结果
+
+400.perlbench	4	2056	19.0	*
+401.bzip2	4	3102	12.4	*
+403.gcc	4	1475	21.8	*
+429.mcf	4	1480	24.7	*
+445.gobmk	4	1862	22.5	*
+456.hmmer	4	1767	21.1	*
+458.sjeng	4	2257	21.4	*
+462.libquantum	4	1962	42.2	*
+464.h264ref	4	6180	14.3	*
+471.omnetpp	4	1830	13.7	*
+473.astar	4	1772	15.8	*
+483.xalancbmk	4	1571	17.6	*
+Est.	SPECint_rate_base2006	0.00
+Est.	SPECint_rate2006	Not	Run
+*******************************************************************************************************************
+
+ UnixBench 测试结果  
+
+Benchmark Run: 五 10月 21 2016 10:45:01 - 11:12:55
+4 CPUs in system; running 4 parallel copies of tests
+
+Dhrystone 2 using register variables       11015709.7 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                     1551.2 MWIPS (10.0 s, 7 samples)
+Execl Throughput                               4089.8 lps   (30.0 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks        153550.8 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           40162.0 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        504208.0 KBps  (30.0 s, 2 samples)
+Pipe Throughput                             1047410.9 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                 336122.3 lps   (10.0 s, 7 samples)
+Process Creation                              11893.3 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                   3220.3 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    429.0 lpm   (60.2 s, 2 samples)
+System Call Overhead                         842179.9 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0   11015709.7    943.9
+Double-Precision Whetstone                       55.0       1551.2    282.0
+Execl Throughput                                 43.0       4089.8    951.1
+File Copy 1024 bufsize 2000 maxblocks          3960.0     153550.8    387.8
+File Copy 256 bufsize 500 maxblocks            1655.0      40162.0    242.7
+File Copy 4096 bufsize 8000 maxblocks          5800.0     504208.0    869.3
+Pipe Throughput                               12440.0    1047410.9    842.0
+Pipe-based Context Switching                   4000.0     336122.3    840.3
+Process Creation                                126.0      11893.3    943.9
+Shell Scripts (1 concurrent)                     42.4       3220.3    759.5
+Shell Scripts (8 concurrent)                      6.0        429.0    715.0
+System Call Overhead                          15000.0     842179.9    561.5
+                                                                   ========
+System Benchmarks Index Score                                         634.0
+
+*******************************************************************************************************************
+
+ x11perf 测试结果  
+ 
+
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1270000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+7000000 reps @   0.0008 msec (1280000.0/sec): Dot
+35000000 trep @   0.0008 msec (1280000.0/sec): Dot
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:03 2016
+
+Sync time adjustment is 0.1472 msecs.
+
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1250000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1230000.0/sec): 100-pixel line
+7000000 reps @   0.0008 msec (1270000.0/sec): 100-pixel line
+35000000 trep @   0.0008 msec (1250000.0/sec): 100-pixel line
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:20:37 2016
+
+Sync time adjustment is 0.1497 msecs.
+
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0837 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+  70000 reps @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+ 350000 trep @   0.0839 msec ( 11900.0/sec): Fill 100x100 equivalent triangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:21:13 2016
+
+Sync time adjustment is 0.1499 msecs.
+
+ 180000 reps @   0.0211 msec ( 47400.0/sec): 100x100 rectangle
+ 180000 reps @   0.0222 msec ( 45000.0/sec): 100x100 rectangle
+ 180000 reps @   0.0197 msec ( 50800.0/sec): 100x100 rectangle
+ 180000 reps @   0.0193 msec ( 51900.0/sec): 100x100 rectangle
+ 180000 reps @   0.0211 msec ( 47500.0/sec): 100x100 rectangle
+ 900000 trep @   0.0207 msec ( 48400.0/sec): 100x100 rectangle
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:22:34 2016
+
+Sync time adjustment is 0.1470 msecs.
+
+  20000 reps @   0.2672 msec (  3740.0/sec): PutImage 100x100 square
+  20000 reps @   0.2864 msec (  3490.0/sec): PutImage 100x100 square
+  20000 reps @   0.2754 msec (  3630.0/sec): PutImage 100x100 square
+  20000 reps @   0.2760 msec (  3620.0/sec): PutImage 100x100 square
+  20000 reps @   0.2530 msec (  3950.0/sec): PutImage 100x100 square
+ 100000 trep @   0.2716 msec (  3680.0/sec): PutImage 100x100 square
+
+x11perf - X11 performance program, version 1.2
+The X.Org Foundation server version 11401000 on :0.0
+from localhost
+Fri Oct 21 20:23:08 2016
+
+Sync time adjustment is 0.1524 msecs.
+
+  60000 reps @   0.0955 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0954 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0959 msec ( 10400.0/sec): Fill 100x100 equivalent complex polygons
+  60000 reps @   0.0957 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+ 300000 trep @   0.0956 msec ( 10500.0/sec): Fill 100x100 equivalent complex polygons
+
+*******************************************************************************************************************
+ 
+LTP 测试结果
+
+LTP FAIL
+
